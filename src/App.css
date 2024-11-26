@@ -1,0 +1,27 @@
+.scrollable {
+  overflow-y: scroll; 
+  height: 10%;        
+}
+
+/* Customize the scrollbar width */
+.scrollable::-webkit-scrollbar {
+  width: 7px;           /* Width of the vertical scrollbar */
+  height: 2px;          /* Height of the horizontal scrollbar */
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #1E3D8C;   /* Color of the thumb */
+  border-radius: 4px;       /* Rounded corners */
+  border: 2px solid #fff;   /* Optional border around the thumb */
+}
+
+/* Customize the scrollbar track (the background part) */
+.scrollable::-webkit-scrollbar-track {
+  background-color: #ffffff;  /* Color of the track */
+  border-radius: 4px;          /* Rounded corners */
+}
+
+/* Optional: Hover effect for the thumb */
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background-color: #f4f4f4;  /* Darker thumb color when hovering */
+}
